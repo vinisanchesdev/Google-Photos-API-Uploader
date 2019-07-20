@@ -1,5 +1,6 @@
 ﻿using System;
 using Google.Apis.Auth;
+using Google.Apis.Oauth2.v2.Data;
 
 namespace GooglePhotosUploader
 {
@@ -7,7 +8,7 @@ namespace GooglePhotosUploader
     {
         static void Main(string[] args)
         {
-            Google.Apis.Oauth2.v2.Data.Tokeninfo
+            var test = new Tokeninfo();
             Console.WriteLine("Hello World!");
         }
     }
