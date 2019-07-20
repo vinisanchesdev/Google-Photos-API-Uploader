@@ -10,7 +10,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Google.Apis.Auth" Version="1.40.2" />
+    <PackageReference Include="Google.Apis.Docs.v1" Version="1.40.2.1652" />
     <PackageReference Include="Google.Apis.Oauth2.v2" Version="1.40.2.1602" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="credentials.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
